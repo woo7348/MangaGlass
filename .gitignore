@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+
+=======
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+
+# Firebase, API Keys, Secrets
+Secrets.plist
+
+# Others
+*.swp
+*.lock
+*.tmp
+>>>>>>> a95e5bb (Initial commit: MangaGlass project)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <!-- 앱이 외부 URL로 요청 가능하게 허용 -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <!-- 화면 캡처 권한 요청 메시지 -->
+    <key>NSAppleEventsUsageDescription</key>
+    <string>스크린 캡처 권한이 필요합니다.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>OCR 처리를 위해 필요할 수 있습니다.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>필요 시 (실제로는 불필요할 수 있음)</string>
+</dict>
+</plist>
