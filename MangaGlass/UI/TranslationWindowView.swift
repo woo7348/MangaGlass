@@ -295,6 +295,17 @@ struct TranslationWindowView: View {
                     .foregroundColor(.white)
                     .cornerRadius(6)
             }
+            
+            Button {
+                appState.captureByDragAndTranslate()
+            } label: {
+                Text("영역 선택 후 번역")
+                    .frame(maxWidth: .infinity)
+                    .padding(8)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(6)
+            }
 
             Divider()
 

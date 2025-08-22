@@ -223,3 +223,19 @@ final class AppState: ObservableObject {
         }
     }
 }
+
+extension AppState {
+    func captureByDragAndTranslate() {
+        RegionDragCapture.shared.begin { [weak self] image in
+            guard let self else { return }
+            DispatchQueue.main.async {
+                self.capturedImage = image
+                if let img = image {
+                    self.runOCR(on: img)   // 기존 OCR → 번역 파이프라인 호출
+                } else {
+                    print("⚠️ 드래그 캡처 취소/실패")
+                }
+            }
+        }
+    }
+}
