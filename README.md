@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/<USERNAME>/MangaGlass/Group3-1.png?raw=true" alt="MangaGlass App Icon" width="200" />
+  <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/c4f7be15-49e8-4b28-843d-f7d2cde06a1f" />
 </p>
 
 # MangaGlass
