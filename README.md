@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/<USERNAME>/MangaGlass/blob/main/docs/images/mangaglass-icon.png?raw=true" alt="MangaGlass App Icon" width="200" />
+</p>
+
 # MangaGlass
 MacOS 용 실시간 번역앱.
 ### 기본 개요
