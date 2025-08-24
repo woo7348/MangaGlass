@@ -1,9 +1,8 @@
-
-
-# MangaGlass
 <p align="left">
   <img width="64" height="64" alt="Image" src="https://github.com/user-attachments/assets/9dfc1143-d864-417c-ac62-32be3e412dbc" />
 </p>
+
+# MangaGlass
  MacOS 용 실시간 번역앱.
 ### 기본 개요
 -	macOS 전용 실시간 만화 번역 앱
